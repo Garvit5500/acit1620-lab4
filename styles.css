@@ -17,17 +17,20 @@ li {
     list-style-type:none;
     padding: 1rem;
     float:left;
+   
+    
 
     
 }
-button{
+button {
 
 padding: 1rem;
 background: white;
 border: 1px solid rgb(159, 154, 154);
-border-radius: 0.2rem;
+border-radius: 0.5rem;
 box-shadow: 2px 2px rgb(195, 194, 194);
-font-style: oblique;
+
+transition:box-shadow 1s ease, background 1s ease, margin 0.5s ease, padding 1s ease;
 
 
 }
@@ -35,9 +38,91 @@ a{
 
     text-decoration: none;
     color:rgb(27, 95, 164);
-    border:
+    transition: color 1s ease;
+   
 }
+
 button:hover{
+    box-shadow: -2px 5px rgb(181, 176, 176);
+    background: rgb(27, 95, 164);
+    color:white;
+    
+    margin-block-end: 2.5px;
+    padding:20px;
+
+    color: white;
+    transition: box-shadow 1s ease, background 1s ease, margin 0.5s ease, padding 1s ease;
+
+    a{
+
+        color:white;
+        transition: color 1s ease, padding 1s ease;
+  
+    }
+
+
+}
+footer{
 
     
+    background-image:url("gg.jpg") ;
+    color:aliceblue;
+    position: fixed;
+    text-align: center;
+    left:0;
+    bottom: 0;
+    right:0;
 }
+
+
+
+p {
+
+    color:rgb(27, 95, 164);
+}
+h2{
+
+    color:rgb(7, 193, 193)
+}
+form {
+
+    padding: 1rem;
+    width: 80%;  
+ 
+    color:rgb(27, 95, 164);
+
+}
+
+input,
+textarea {
+    display: block;
+    width: 70%;
+    margin-bottom: 1rem;
+
+}
+
+form button {
+    
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px solid;
+    width: 5rem;
+    margin-left: auto;
+    
+}
+form button:hover
+{
+
+    transition:box-shadow 1s ease;
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px solid;
+    width: 5rem;
+    margin-left: auto;
+
+}
+
