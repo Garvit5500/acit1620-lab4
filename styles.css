@@ -4,7 +4,9 @@ header{
    
     color: white;
     font-size: small;
-    background-image:url("gg.jpg") ;
+    background: radial-gradient(#052cee, #030841);  
+    font-style: italic;
+    
 }
 nav{
 
@@ -65,7 +67,7 @@ button:hover{
 footer{
 
     
-    background-image:url("gg.jpg") ;
+    background:radial-gradient(rgb(6, 119, 181),rgb(1, 19, 34)) ;
     color:aliceblue;
     position: fixed;
     text-align: center;
@@ -80,6 +82,19 @@ p {
 
     color:rgb(27, 95, 164);
 }
+.pricing > aside > div{
+
+    color:rgb(64, 22, 160);
+    font-size: larger;
+    display:block;
+    margin-left: 10px;
+}
+.pricing >div:nth-child(1){
+
+
+    float:left;
+}
+
 h2{
 
     color:rgb(7, 193, 193)
@@ -103,26 +118,27 @@ textarea {
 
 form button {
     
-    padding: 0.5rem 1rem;
-    background: hsl(120, 56%, 40%);
+    background:radial-gradient(rgb(5, 175, 178),rgb(3, 86, 87));
     border: none;
     color: #fff;
     border-radius: 5px solid;
     width: 5rem;
     margin-left: auto;
+    box-shadow: none;
+    transition: background 1s ease;
     
 }
 form button:hover
 {
 
-    transition:box-shadow 1s ease;
-    padding: 0.5rem 1rem;
-    background: hsl(120, 56%, 40%);
+    transition: background 2s ease, color 1s ease;
+    padding: 1rem;
+    background:radial-gradient(rgb(7, 211, 214),rgb(3, 86, 87));
     border: none;
-    color: #fff;
-    border-radius: 5px solid;
+    color: #e7e5e5;
     width: 5rem;
     margin-left: auto;
+    box-shadow: none;
 
 }
 
