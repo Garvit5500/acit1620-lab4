@@ -1,15 +1,22 @@
+:root{
+
+    --color1: #052cee;
+    --color2: #030841;
+    --color3: rgb(47, 105, 192);
+}
+
 header{
 
     text-align:center;
    
     color: white;
     font-size: small;
-    background: radial-gradient(#052cee, #030841);  
+    background: radial-gradient(var(--color1),var(--color2));  
     font-style: italic;
     
 }
 nav{
-
+margin-top: 10px;
 display:flex;
 
 }
@@ -39,17 +46,17 @@ transition:box-shadow 1s ease, background 1s ease, margin 0.5s ease, padding 1s 
 a{
 
     text-decoration: none;
-    color:rgb(27, 95, 164);
+    color:var(--color1);
     transition: color 1s ease;
    
 }
 
 button:hover{
     box-shadow: -2px 5px rgb(181, 176, 176);
-    background: rgb(27, 95, 164);
+    background: var(--color1);
     color:white;
     
-    margin-block-end: 2.5px;
+    margin-top: none;
     padding:20px;
 
     color: white;
@@ -67,7 +74,7 @@ button:hover{
 footer{
 
     
-    background:radial-gradient(rgb(6, 119, 181),rgb(1, 19, 34)) ;
+    background:radial-gradient(var(--color1),var(--color2)) ;
     color:aliceblue;
     position: fixed;
     text-align: center;
@@ -80,11 +87,11 @@ footer{
 
 p {
 
-    color:rgb(27, 95, 164);
+   color: var(--color1);
 }
 .pricing > aside > div{
 
-    color:rgb(64, 22, 160);
+    color: var(--color1);
     font-size: larger;
     display:block;
     margin-left: 10px;
@@ -97,14 +104,14 @@ p {
 
 h2{
 
-    color:rgb(7, 193, 193)
+    color:var(--color3);
 }
 form {
 
     padding: 1rem;
     width: 80%;  
  
-    color:rgb(27, 95, 164);
+    color:var(--color2);
 
 }
 
@@ -118,7 +125,7 @@ textarea {
 
 form button {
     
-    background:radial-gradient(rgb(5, 175, 178),rgb(3, 86, 87));
+    background:radial-gradient(var(--color2),var(--color2));
     border: none;
     color: #fff;
     border-radius: 5px solid;
@@ -133,7 +140,7 @@ form button:hover
 
     transition: background 2s ease, color 1s ease;
     padding: 1rem;
-    background:radial-gradient(rgb(7, 211, 214),rgb(3, 86, 87));
+    background:radial-gradient(var(--color1),var(--color3));
     border: none;
     color: #e7e5e5;
     width: 5rem;
