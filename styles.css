@@ -149,3 +149,19 @@ form button:hover
 
 }
 
+.paragraph:hover{
+
+    background-color: var(--color1);
+
+    p{
+
+        color:white;
+    }
+    h2{
+
+        color:white;
+    }
+ 
+}
+
+
